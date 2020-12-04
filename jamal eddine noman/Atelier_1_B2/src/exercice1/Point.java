@@ -22,7 +22,7 @@ public class Point {
 		this.setX(X);
 		this.setY(Y);
 	}
-	public void calculDistance() {
-		System.out.println("la distance entre les 2 points est : " + Math.abs(this.getY()-this.getX()));
+	public void calculDistance(int x2,int y2) {
+		System.out.printf("la destance entre les deux point et :" + Math.sqrt((float)Math.pow((this.x-x2),2)+(float)Math.pow((this.y-y2),2)));
 	}
 }
